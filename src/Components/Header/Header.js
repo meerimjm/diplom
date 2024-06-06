@@ -2,8 +2,8 @@ import './Header.css';
 import Menu from '../Menu/Menu';
 import Button from '../Button/Button';
 import { Link } from 'react-router-dom'
-import { BsCart4 } from "react-icons/bs";
-import { FaRegHeart } from "react-icons/fa";
+// import { BsCart4 } from "react-icons/bs";
+// import { FaRegHeart } from "react-icons/fa";
 import logo from "../../imges/logo.png"
 
 
@@ -18,9 +18,9 @@ function Header() {
               <Button>Login</Button>
               <Button>Sign In</Button>
             </div>
-            <FaRegHeart />
+            {/* <FaRegHeart /> */}
             <Link to="/cart" className="Cart_ic">
-              <BsCart4 className='cart' />
+              {/* <BsCart4 className='cart' /> */}
               <span>10</span>
             </Link>
           </div>

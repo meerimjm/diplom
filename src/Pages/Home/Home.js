@@ -10,6 +10,7 @@ import Svg3 from "../../imges/Svg3.png"
 import Svg4 from "../../imges/Svg4.png"
 import Svg5 from "../../imges/Svg5.png"
 import Svg6 from "../../imges/Svg6.png"
+import video1 from '../../video/shtory.mp4'
 function Home() {
   return (
     <>
@@ -18,7 +19,7 @@ function Home() {
           <div className="all_txt">
             <div className="shtor_txt">Мы Воплотим в Реальность Любую Вашу Мечту!</div>
             <h1 className="main_tit">САЛОН  ШТОР
-              «Рима»</h1>
+              «ТЮЛЬПАН»</h1>
             <button className='main_btn'>просмотр сайта</button>
           </div>
 
@@ -34,16 +35,20 @@ function Home() {
           {/* <ul className='second_block_slider'>
               <li style="float:left;"></li>
             </ul> */}
-          <div className="second_img">
+          {/* <div className="second_img">
             <img src={secondBlock1} alt="" />
-          </div>
+          </div> */}
+          <video className='video1' controls autoPlay muted>
+               <source src={video1} type="video/mp4"></source>
+                  </video>
+
           <div className="cards flex">
             <div className="card_left">
               <div className="card_item flex">
                 <div className="card_left_ic-1">
                   <img src={secondIc1} alt="" />
                 </div>
-                <div className="card_left_txt">«Pима» - КАЧЕСТВО И ЭКСКЛЮЗИВНОСТЬ
+                <div className="card_left_txt">«ТЮЛЬПАН» - КАЧЕСТВО И ЭКСКЛЮЗИВНОСТЬ
                   Мы работаем индивидуально с каждым клиентом. Если у Вас есть задумка, но Вы не знаете, как ее воплотить в реальность, наши профессиональные дизайнеры легко сориентируют Вас в оформлении, помогут с выбором дизайна. И уже через короткое время Вы сможете получить  шторы своей мечты.</div>
               </div>
               <div className="card_img">
@@ -73,7 +78,7 @@ function Home() {
       </section>
       <section className='servic'>
         <div className="container">
-          <h2 className="servic_tit1">УСЛУГИ САЛОНА МЕБЕЛИ И ШТОР</h2>
+          <h2 className="servic_tit1">УСЛУГИ САЛОНА ШТОР</h2>
           <p className="servic_txt1">Если вы искали салон мебели и штор в Бишкеке, где дизайнеры не просто создают изделия, которые закрывают Вас от окружающего мира, а создают продукцию, которая гармонирует с окружающим интерьером и выглядит так, словно это произведение искусства, то Вы оказались у нас не случайно. Для наших клиентов мы готовы предложить широкий ассортимент всевозможных мебельных гарнитур и тканей. Вы сможете выбрать их у нас на любой бюджет. Всего у нас представлено более 20 000 тканей европейских и турецких производителей, а также возможность создания, сборки любой мебели под Ваши предпочтения. ПРИГЛАШАЕМ К СОТРУДНИЧЕСТВУ СВОБОДНЫХ ДИЗАЙНЕРОВ ИНТЕРЬЕРА И МЕБЕЛИ. ДЛЯ ВАС ОЧЕНЬ ИНТЕРЕСНОЕ СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ!!!</p>
           <div className="servic_cards flex">
             <div className="servic_left">
@@ -140,10 +145,11 @@ function Home() {
       </section>
       <section youtube>
         <div className="container">
-          <div className="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/F_ZF6AnhI-c?si=D8dJqjCYdH852AxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
+          
         </div>
+        <div className="video">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/F_ZF6AnhI-c?si=D8dJqjCYdH852AxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
       </section>
     </>
   );

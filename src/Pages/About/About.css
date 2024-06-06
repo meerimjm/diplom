@@ -1,0 +1,27 @@
+.about_tit{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 30px;
+    color:black;
+    margin-bottom: 40px;
+    line-height: 30px;
+    
+}
+.about_txt{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+    color:black;
+    margin-bottom: 40px;
+    line-height: 30px;
+    
+}
+.about_card_left{
+    width: 50%;
+}
+.about_card_right{
+    width: 50%;
+}
+
