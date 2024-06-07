@@ -5,24 +5,22 @@ import { Link } from 'react-router-dom'
 // import { BsCart4 } from "react-icons/bs";
 // import { FaRegHeart } from "react-icons/fa";
 import logo from "../../imges/logo.png"
+import Auth from "../Auth/Auth"
+import CartLink from "../CartLink/CartLink"
 
 
 function Header() {
   return (
-    <header className="Header">
+    <header className="Header ">
       <div className="container">
         <div className="Head flex ">
           <Menu />
           <div className="header_right flex">
             <div className="Buttons flex">
-              <Button>Login</Button>
-              <Button>Sign In</Button>
+              <Auth />
             </div>
             {/* <FaRegHeart /> */}
-            <Link to="/cart" className="Cart_ic">
-              {/* <BsCart4 className='cart' /> */}
-              <span>10</span>
-            </Link>
+            <CartLink />
           </div>
         </div>
         <div className="">

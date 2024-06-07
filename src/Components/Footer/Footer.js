@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
+// import Logo  from "../../imges/logo.png"
+
 
 function Footer() {
   return (
     <>
       <footer>
-		<section className='foot grey'>
 		<div className="container">
 			<div className="footer_in flex">
 				<div classNameName="footer_info">
-					<Link to="index.html" className="footer_logo">
-						<img src="img/logo-footer.svg" alt=""/>
+					<Link to="index.html" className="logo">
+					{/* <img src={logo} alt="logo" className="logo" /> */}
 					</Link>
 					<p className="footer_txt">Шторы - это неотъемлемая часть интерьера, они создают настроение, уют и комфорт в Вашем доме. При этом они, безусловно, должны гармонировать с общим стилем вашего интерьера. Шторы, сшитые по индивидуальному заказу, станут изюминкой вашего дома.
 
@@ -31,27 +32,16 @@ function Footer() {
 					</div>
 				</div>
 				<div className="footer_menu">
-					<h4 className="footer_tit">Pages</h4>
+					<h4 className="footer_tit">Страницы</h4>
 					<ul className="footer_list">
-						<li><Link to="">Home</Link></li>
-						<li><Link to="">About</Link></li>
-						<li><Link to="">Menu</Link></li>
-						<li><Link to="">Contact</Link></li>
-						<li><Link to="">Delivery</Link></li>
+						<li><Link to="">О главном</Link></li>
+						<li><Link to="">О нас</Link></li>
+						<li><Link to="">Меню</Link></li>
+						<li><Link to="">Контакты</Link></li>
+						<li><Link to="">Доставка</Link></li>
 					</ul>
 				</div>
-				<div className="footer_menu">
-					<h4 className="footer_tit">Utility Pages</h4>
-					<ul className="footer_list">
-						<li><Link to="">Start Here</Link></li>
-						<li><Link to="">Styleguide</Link></li>
-						<li><Link to="">Password Protected</Link></li>
-						<li><Link to="">404 Not Found</Link></li>
-						<li><Link to="">Licenses</Link></li>
-						<li><Link to="">Changelog</Link></li>
-						<li><Link to="">View More</Link></li>
-					</ul>
-				</div>
+				
 				<div className="footer_imgs">
 					<h4 className="footer_tit">Следуйте за нами в Instagram</h4>
 					<div className="footer_img-wrap flex ">
@@ -62,13 +52,11 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			<p className="footer_copy">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+			<p className="footer_copy">© 2023 Разработчик хэштегов. Все права защищены</p>
 
 		</div>
-		</section>
 	</footer>
     </>
   );
 }
-
 export default Footer;

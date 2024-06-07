@@ -1,0 +1,7 @@
+.ProductImg{
+    width: 300px;
+}
+.ProductIn{
+    width: calc(100% - 300px);
+    padding-left: 20px;
+}

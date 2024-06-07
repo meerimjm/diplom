@@ -1,7 +1,7 @@
-/* footer {
-	padding: 120px 0 80px;
+footer {
+	padding: 40px 0 30px;
 	background: #474747;
-} */
+}
 
 .footer_info {
 	width: 293px;
@@ -34,10 +34,10 @@
 }
 
 .footer_in {
-	background: #474747;
-	width: 1200px;
 	justify-content: center;
-	margin: 0 auto;
+	margin: 0 auto 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
 }
 
 .footer_menu {
@@ -94,9 +94,6 @@
 	opacity: 0.5;
 }
 
-.footer_in {
-	margin-bottom: 130px;
-}
 
 .footer_img-wrap {
 	flex-wrap: wrap;

@@ -32,3 +32,9 @@ header{
   right: -5px;
   border-radius: 50%;
 }
+.logo{
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}

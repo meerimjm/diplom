@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Contacts from "./Pages/Contacts/Contacts";
@@ -12,6 +11,8 @@ import Product from "./Pages/Product/Product";
 import { Cart } from "./Pages/Cart/Cart";
 import ThankYou from "./Pages/ThankYou/ThankYou";
 import Orders from "./Pages/Orders/Orders";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 
 export const AppContext = createContext({
   categories: [],
@@ -42,7 +43,7 @@ function App() {
     onOrdersLoad(setOrders);
 
     onAuthChange(user => {
-      if(user) {
+      if (user) {
         user.isAdmin = user && user.email === "meerimzumanova5@gmail.com";
       }
 
@@ -55,21 +56,24 @@ function App() {
   return (
     <div className="App">
       <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }} >
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contacts" element={<Contacts />} />
-            <Route path="/delivery" element={<Delivery />} />
-            <Route path="/categories/:slug" element={<Category />} />
-            <Route path="/products/:slug" element={<Product />} />
-            <Route path="/thank-you" element={<ThankYou />} />
-            <Route path="/orders" element={<Orders />} />
-
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
+        <Header />
+        <main>
+          <div className="container">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="/delivery" element={<Delivery />} />
+              <Route path="/categories/:slug" element={<Category />} />
+              <Route path="/products/:slug" element={<Product />} />
+              <Route path="/thank-you" element={<ThankYou />} />
+              <Route path="/orders" element={<Orders />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
+        </main>
+        <Footer />
       </AppContext.Provider>
     </div>
   );

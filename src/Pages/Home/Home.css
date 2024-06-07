@@ -1,5 +1,5 @@
 .shtor{
-    background: url(../../imges/main_fon1.jpg) no-repeat;
+    background: url(../../imges/main_fon.jpg ) no-repeat;
     width: 100%;
     height: 500px;
 }
@@ -7,7 +7,6 @@
     text-align: center;
     align-self: center;
     align-items: center;
-    margin-top: 120px;
 }
 .shtor_txt{
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -92,7 +91,7 @@
     margin-bottom: 20px;
 }
 .grey{
-    background: gainsboro;
+    /* background: gainsboro; */
 }
 .card_img{
     margin-top: 30px;
@@ -124,3 +123,9 @@ margin-bottom: 40px;
     width: 100%;
 }
 
+.youtube .video{
+    padding-bottom: 20px;
+}
+.second_block{
+    padding: 80px 0;
+}
