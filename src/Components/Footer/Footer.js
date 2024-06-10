@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
-// import Logo  from "../../imges/logo.png"
+import logo  from "../../imges/logo.png"
 import foto1 from "../../imges/foto1.jpeg"
-
+import foto2 from "../../imges/Delivery/foto2.webp"
+import foto3 from "../../imges/Delivery/foto3.png"
+import foto4 from "../../imges/Delivery/foto4.jpeg"
 
 function Footer() {
   return (
@@ -10,9 +12,9 @@ function Footer() {
       <footer>
 		<div className="container">
 			<div className="footer_in flex">
-				<div classNameName="footer_info">
+				<div className="footer_info">
 					<Link to="index.html" className="logo">
-					{/* <img src={logo} alt="logo" className="logo" /> */}
+					<img src={logo} alt="logo" className="logo" />
 					</Link>
 					<p className="footer_txt">Шторы - это неотъемлемая часть интерьера, они создают настроение, уют и комфорт в Вашем доме. При этом они, безусловно, должны гармонировать с общим стилем вашего интерьера. Шторы, сшитые по индивидуальному заказу, станут изюминкой вашего дома.
 
@@ -32,11 +34,11 @@ function Footer() {
 				
 				<div className="footer_imgs">
 					<h4 className="footer_tit">Следуйте за нами в Instagram</h4>
-					<div className="footer_img-wrap flex ">
-						<Link to="" className="footer_img"><img src="img/foto1.jpg" alt=""/></Link>
-						<Link to="" className="footer_img"><img src="img/foto2.jpg" alt=""/></Link>
-						<Link to="" className="footer_img"><img src="img/foto3.jpg" alt=""/></Link>
-						<Link to="" className="footer_img"><img src="img/foto4.jpg" alt=""/></Link>
+					<div className="footer_img flex ">
+						<Link to="" className="footer_img"><img src={foto1} alt=""/></Link>
+						<Link to="" className="footer_img"><img src={foto2} alt=""/></Link>
+						<Link to="" className="footer_img"><img src={foto3} alt=""/></Link>
+						<Link to="" className="footer_img"><img src={foto4} alt=""/></Link>
 					</div>
 				</div>
 			</div>

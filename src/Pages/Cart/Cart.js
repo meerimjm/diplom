@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import CartList from "../../Components/CartList/CartList";
 import OrderForm from "../../Components/OrderForm/OrderForm";
 import { AppContext } from "../../App";
+import Total from "../../Components/Total/Total";
 
 export function Cart() {
   const [modalActive, setModalActive] = useState(false);
@@ -26,9 +27,10 @@ export function Cart() {
 
   return (
     <div className="Cart" >
-      <h1>Cart</h1>
+      <h1>Корзина</h1>
       <CartList />
-      <button className="order" onClick={() => setModalActive(true)}>Order</button>
+      <Total/>
+      <button className="order" onClick={() => setModalActive(true)}>Заказать</button>
       <OrderForm active={modalActive} setActive={setModalActive} />
     </div>
   )

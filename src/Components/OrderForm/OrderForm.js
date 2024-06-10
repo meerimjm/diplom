@@ -14,7 +14,7 @@ export default function OrderForm({ active, setActive }) {
     return "Your cart is empty";
   }
   if (!user) {
-    return "(Please log in)";
+    return "(Войдите в ЛК)";
   }
 
 
@@ -52,7 +52,7 @@ export default function OrderForm({ active, setActive }) {
               <input type="text" name="address" placeholder="Country, city, street" required />
             </label>
             <div>
-              <Button>Submit</Button>
+              <Button>Отправить</Button>
             </div>
           </form>
         </div>

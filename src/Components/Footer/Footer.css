@@ -17,25 +17,13 @@ footer {
 	margin-bottom: 30px;
 	color: #adb29e;
 }
-
-.footer_icons {
-	justify-self: flex-start;
-}
-
-.footer_ic {
-	margin-right: 12px;
-	width: 35px;
-	height: 35px;
-}
-
 .footer_copy {
 	color: #adb29e;
 	text-align: center;
+	padding: 30px;
 }
 
 .footer_in {
-	justify-content: center;
-	margin: 0 auto 20px;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #ccc;
 }
@@ -49,32 +37,32 @@ footer {
 	color: #fff;
 	font-weight: 700;
 	margin-bottom: 40px;
-}
+} 
 
 .footer_list li {
 	margin-bottom: 20px;
 	color: #dbdfd0;
-}
+} 
 
 .footer_imgs {
-	max-width: 403px;
+	max-width: 200px;
 }
 
-.footer_img {
+ .footer_img {
 	margin-bottom: 15px;
 	border-radius: 12px;
 	overflow: hidden;
 	position: relative;
-}
+} 
 
 .footer_img img {
 	transition: 0.3s;
-}
+} 
 
 .footer_img:hover img {
 	transform: scale(1.1);
 
-}
+} 
 
 .footer_img::before {
 	content: '';
@@ -97,4 +85,9 @@ footer {
 
 .footer_img-wrap {
 	flex-wrap: wrap;
+}
+
+.footer_info{
+	width: 35%;
+	padding-right: 10px;
 }
