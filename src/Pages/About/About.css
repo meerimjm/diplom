@@ -10,7 +10,7 @@
 }
 .about_txt{
     text-align: center;
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     font-size: 20px;
     color:black;
@@ -24,4 +24,18 @@
 .about_card_right{
     width: 50%;
 }
+.about_img{
+    width: 600px;
+    padding-bottom: 20px; 
+}
+.about_card_tit{
+    width: 500px;
+    margin-bottom: 20px;
+}
+.card_txt{
+    width: 600px;
+    margin-bottom: 25px;
+}
 
+ 
+ 

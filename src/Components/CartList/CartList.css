@@ -16,6 +16,7 @@
 }
 .cartItem input {
   width: 30px;
+  color: black;
 }
 .cartItem a {
   color: black;
