@@ -44,15 +44,18 @@ footer {
 	color: #dbdfd0;
 } 
 
-.footer_imgs {
-	max-width: 200px;
-}
+ .footer_imgs {
+	 width: 200px; 
+	height: 250px;
+	border-radius: 10px;
+} 
 
  .footer_img {
 	margin-bottom: 15px;
 	border-radius: 12px;
 	overflow: hidden;
 	position: relative;
+	width: 500px; 
 } 
 
 .footer_img img {
@@ -64,23 +67,6 @@ footer {
 
 } 
 
-.footer_img::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #000;
-	opacity: 0;
-	z-index: 10;
-	transition: 0.3s;
-
-}
-
-.footer_img:hover::before {
-	opacity: 0.5;
-}
 
 
 .footer_img-wrap {

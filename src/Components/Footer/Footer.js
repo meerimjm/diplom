@@ -32,13 +32,13 @@ function Footer() {
 					</ul>
 				</div>
 				
-				<div className="footer_imgs">
+				<div className="footer_picture">
 					<h4 className="footer_tit">Следуйте за нами в Instagram</h4>
 					<div className="footer_img flex ">
-						<Link to="" className="footer_img"><img src={foto1} alt=""/></Link>
-						<Link to="" className="footer_img"><img src={foto2} alt=""/></Link>
-						<Link to="" className="footer_img"><img src={foto3} alt=""/></Link>
-						<Link to="" className="footer_img"><img src={foto4} alt=""/></Link>
+						<Link to="" className="footer_imgs"><img src={foto1} alt=""/></Link>
+						<Link to="" className="footer_imgs"><img src={foto2} alt=""/></Link>
+						<Link to="" className="footer_imgs"><img src={foto3} alt=""/></Link>
+						<Link to="" className="footer_imgs"><img src={foto4} alt=""/></Link>
 					</div>
 				</div>
 			</div>
