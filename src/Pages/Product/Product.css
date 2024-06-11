@@ -1,7 +1,29 @@
 .ProductImg{
     width: 300px;
+
 }
 .ProductIn{
     width: calc(100% - 300px);
     padding-left: 20px;
 }
+.ProductName{
+    width: 500px;
+}
+.ProductPrice{
+ width:400px ;
+}
+.ProductDesc{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ProductButton{
+    width: 20%;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-weight: 500;
+   
+
+}
+
