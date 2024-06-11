@@ -84,15 +84,20 @@
 }
 .servic_ic{
     width: 50px;
-    float: left;
-    
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .servic_item{
     margin-bottom: 20px;
+    position: relative;
+    padding-left: 65px;
 }
-.grey{
-    /* background: gainsboro; */
-}
+ .servic_txt{
+    width: 300px;
+} 
+
 .card_img{
     margin-top: 30px;
 }
@@ -106,7 +111,7 @@ margin-bottom: 40px;
 
 }
 .servic_txt1{
-    width: 900px;
+    width: 1200px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;

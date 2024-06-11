@@ -19,11 +19,23 @@
     font-size: 45px;
     font-weight: 200;
     color: rgb(0, 0, 120);
+    margin-bottom: 30px;
 }
-.delivery_tit1{
+.delivery_tit2{
     margin-top: 100px;
     text-align: center;
     font-size: 30px;
     font-weight: 600;
     color: rgb(0, 0, 0);
+}
+.delivery_txt2{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.delivery_tit1{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
