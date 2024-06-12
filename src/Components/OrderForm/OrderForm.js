@@ -52,7 +52,7 @@ export default function OrderForm({ active, setActive }) {
               <input type="text" name="address" placeholder="Country, city, street" required />
             </label>
             <div>
-              <Button>Отправить</Button>
+              <button type="submit" className="Btn">Отправить</button>
             </div>
           </form>
         </div>

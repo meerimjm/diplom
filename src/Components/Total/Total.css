@@ -1,12 +1,10 @@
-.total_txt{
-   width: 500px; 
-   margin-bottom: 30px;
-   height: 40px;
-   margin: right;
-}
-.Total_tit{
-   width: 700px;
+.Total p{
+   margin-top: 5px;
+   font-size: 25px ;
 }
 .Total{
-   margin: right;
+   padding-top: 15px;
+   text-align:right;
+   margin: 0 auto;
+
 }

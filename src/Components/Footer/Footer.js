@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
-// import logofooter  from "../../imges/logofooter.png"
+ import footeric  from "../../imges/footeric.png"
 import foto1 from "../../imges/foto1.jpeg"
 import foto2 from "../../imges/Delivery/foto2.webp"
 import foto3 from "../../imges/Delivery/foto3.png"
@@ -12,16 +12,14 @@ function Footer() {
       <footer>
 		<div className="container">
 			<div className="footer_in flex">
-				<div className="footer_info">
-					{/* <Link to="index.html" className="logo">
-					<img src={logofooter} alt="logo" className="logo" />
-					</Link> */}
-					<p className="footer_txt">Шторы - это неотъемлемая часть интерьера, они создают настроение, уют и комфорт в Вашем доме. При этом они, безусловно, должны гармонировать с общим стилем вашего интерьера. Шторы, сшитые по индивидуальному заказу, станут изюминкой вашего дома.
+				<div className="footer_info flex">
+					<Link to="/" className="footlogo">
+					<img src={footeric} alt="logo" />
+					</Link> 
+					<p className="footer_txt">Шторы - это неотъемлемая часть интерьера, они создают настроение, уют и комфорт в Вашем доме. При этом они, безусловно, должны гармонировать с общим стилем вашего интерьера. Шторы, сшитые по индивидуальному заказу, станут изюминкой вашего дома.</p>
 
-</p>
-
-				</div>
-				<div className="footer_menu">
+				 </div>
+				 <div className="footer_menu">
 					<h4 className="footer_tit">Страницы</h4>
 					<ul className="footer_list">
 						<li><Link to="">О главном</Link></li>

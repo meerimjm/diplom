@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
 
-  width: 90%;
+  /* width: 90%; */
   padding: 10px 0;
   border-bottom: 1px solid gray;
   font-size: 28px;
