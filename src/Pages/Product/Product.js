@@ -22,7 +22,7 @@ export default function Product() {
       </div>
       <div className="ProductIn">
         <h1 className="ProductName">{product.name}</h1>
-        <p className="ProductPrice"><strong>Price:</strong> {product.price}$</p>
+        <p className="ProductPrice"><strong>Price:</strong> {product.price}c</p>
         <p className="ProductDesc"><strong>Description: </strong>{product.description}</p>
         <div className="ProductButton">
         <AddToCart product={product} />

@@ -2,4 +2,11 @@
    width: 500px; 
    margin-bottom: 30px;
    height: 40px;
+   margin: right;
+}
+.Total_tit{
+   width: 700px;
+}
+.Total{
+   margin: right;
 }

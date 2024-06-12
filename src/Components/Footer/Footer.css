@@ -1,6 +1,6 @@
 footer {
 	padding: 40px 0 30px;
-	background: #474747;
+	background: grey;
 }
 
 .footer_info {
@@ -11,14 +11,18 @@ footer {
 	display: block;
 	width: 230px;
 	margin-bottom: 30px;
+	
 }
 
 .footer_txt {
 	margin-bottom: 30px;
-	color: #adb29e;
+	color: #fff;
+	width: 600px;
+	font-size: 25px;
+	text-align: left;
 }
 .footer_copy {
-	color: #adb29e;
+	color:#fff;
 	text-align: center;
 	padding: 30px;
 }
@@ -34,14 +38,14 @@ footer {
 }
 
 .footer_tit {
-	color: #fff;
+	color:#fff;
 	font-weight: 700;
 	margin-bottom: 40px;
 } 
 
 .footer_list li {
 	margin-bottom: 20px;
-	color: #dbdfd0;
+	color:#fff;
 } 
 
  .footer_imgs {
